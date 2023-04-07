@@ -1,0 +1,73 @@
+.game-container{
+    border-radius: 8px;
+    background-color: white;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    box-shadow: 0 0 20px rgb(0, 130, 211);
+    padding-top: 30px;
+    padding-inline: 30px;
+    padding-bottom: 30px;
+}
+
+.info-div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.choose-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.score-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+}
+
+.play-board{
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    background-color: white;
+    gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cell{
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(180, 231, 255);
+    width: 80px;
+    height: 80px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reset-button-div{
+    display: flex;
+    justify-content: center;
+}

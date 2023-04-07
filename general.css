@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightskyblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,h2,h3,h4{
+    color: rgb(0, 130, 211);
+    font-family: Arial, Helvetica, sans-serif;
+}
