@@ -17,7 +17,7 @@ selectButtons.forEach((button)=>{
         localStorage.setItem('selectedChoice', selectedChoice);
 
         // and now navigate us to different page.
-        return window.location.assign('/game.html');
+        return window.location.assign('game.html');
 
     })
 })
